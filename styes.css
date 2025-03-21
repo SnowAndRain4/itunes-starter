@@ -1,13 +1,14 @@
 * {
     font-family: sans-serif;
     padding: 10px;
-    background: lightskyblue;
+    background: rgb(255, 255, 255);
 }
 
-#output {
+select {
+    background: rgb(32,24,154,0.258)
 }
 
 button {
-    background: yellow;
-    color: black;
+    background: rgba(0, 0, 0, 0.258);
+    color: rgb(255, 255, 255);
 }

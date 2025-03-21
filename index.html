@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>iTunes</title>
+    <link href="styes.css" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <label for="Stock Data Goal"id="StockDG"></label>
+        <select name="stocks goal"id="StockG">
+            <option value="Bullish">Bullish</option>
+            <option value="Slightly Bullish">Slightly Bullish</option>
+            <option value="Nuteral Bullish">Nuteral Bullish</option>
+            <option value="Nuteral Bearish">Nuteral Bearish</option>
+            <option value="Slightly Bearish">Slightly Bearish</option>
+            <option value="Bearish">Bearish</option>
+        </select>
+    
+    <button onclick="main()">Gather Data</button>
+    <table id="output" border="1"></table>
+    <h1>YOUR CURRENT BEST STOCK</h1>
+
+    <div id="ImageOutput"></div>
+
+</body>
+</html>
